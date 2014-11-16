@@ -9,7 +9,8 @@ local LogoScene = class("LogoScene", function()
 	return display.newScene("LogoScene")
 end)
 
-LogoScene.EXIT_BTN_IMG = {
+LogoScene.EXIT_BTN_IMG = 
+{
 	normal = "public/btn_kongbai_up1.png",
 	pressed = "public/btn_kongbai_up2.png",
 	disabled = "public/btn_kongbai2_hui.png",
